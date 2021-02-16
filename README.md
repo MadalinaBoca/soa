@@ -3,6 +3,7 @@
 The Movie Catalog is a WebApplication that allows a user to rate movies. It uses the following microservices:
 - MovieInfoService which provides the data related to a movie making calls to a 3rd party API MovieDB.
 - RatingsDataService which manages all users and corresponding movie ratings. 
+- MovieCatalogService orchestrates calls to the MovieInfoService and RatingsDataService microservices. 
 
 # Installation
 ```
@@ -21,7 +22,7 @@ For the rated movies of user1: http://localhost:8084/catalog/user1. For the rate
 # Architecture C4 Model
 
 ## Context Diagram
-![Context Diagram](./context-diagram.JPG)
+![Context Diagram](./context-diagram.png)
 
 ## Container Diagram
 ![Container Diagram](./container-diagram.png)
