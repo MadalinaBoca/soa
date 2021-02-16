@@ -21,7 +21,7 @@ For the rated movies of user1: http://localhost:8084/catalog/user1. For the rate
 # Architecture C4 Model
 
 ## Context Diagram
-![Context Diagram](./context-diagram.png)
+![Context Diagram](./context-diagram)
 
 ## Container Diagram
 ![Container Diagram](./container-diagram.png)
